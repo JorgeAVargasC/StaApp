@@ -1,0 +1,12 @@
+En la actualidad el sistema de transporte aéreo de pasajeros en el país es un sistema medianamente eficiente 
+para viajar de una manera segura y cómoda, sin embargo para poder desplazarse de un punto A a un punto B se
+ llevan a cabo varios procesos o varias etapas en las que el usuario es el principal implicado y por ende 
+siempre surgen quejas y preguntas como del ¿porque tantos procesos?, ¿porque tantas demoras?, 
+¿porque para un viaje de 45 minutos tengo que esperar hasta 4 a 5 horas?, la respuesta de los aeropuertos y 
+las aerolíneas siempre es la seguridad y el confort, sin embargo en el modelo actual deberían existir rutas
+ predefinidas que sean seguras y rápidas al mismo tiempo, lo que queremos lograr con este proyecto es generar
+ una aplicación de “Express Travels”, en donde viajeros frecuentes que necesite desplazarse de un sitio a otro
+ de manera corta, lo puedan lograr un tiempo mínimo sin que se vuelva una eternidad la espera, para ello es de 
+vital importancia, crear una plataforma rápida y ágil que le permita al usuario, elegir parámetros como fecha, 
+origen, destino, las rutas disponibles, los horarios y que finalmente no sea una tortura realizar los pagos
+pertinentes.
