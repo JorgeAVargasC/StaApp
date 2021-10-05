@@ -98,11 +98,14 @@ WSGI_APPLICATION = 'staProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd5oj1obbsldi6i',
+        'USER':'pxjvyuiffnydtv',
+        'PASSWORD':'6fc9a0a1899f32dbdc92b22a236ec5b8d2a3b9d543bc4ba9384ca9daaa3e555a',
+        'HOST':'ec2-34-197-135-44.compute-1.amazonaws.com',
+        'PORT':'5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
