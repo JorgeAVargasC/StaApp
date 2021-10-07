@@ -1,2 +1,2 @@
-from .vuelo import Vuelo
+# # from .vuelos import Vuelos
 from .user import User
