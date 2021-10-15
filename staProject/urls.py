@@ -16,9 +16,14 @@ Including another URLconf
 from django.urls import path
 from rest_framework_simplejwt.views import (TokenObtainPairView, TokenRefreshView)
 from staApp import views
+
 urlpatterns = [
 path('login/', TokenObtainPairView.as_view()),
 path('refresh/', TokenRefreshView.as_view()),
 path('user/', views.UserCreateView.as_view()),
 path('user/<int:pk>/', views.UserDetailView.as_view()),
+path('vuelo/<int:user>/<int:pk>/', views.VueloDetailView.as_view()),
+path('vuelo/create/', views.VueloCreateView.as_view()),
+path('vuelo/update/<int:user>/<int:pk>/', views.VueloUpdateView.as_view()),
+path('vuelo/remove/<int:user>/<int:pk>/', views.VueloDeleteView.as_view()),
 ]
