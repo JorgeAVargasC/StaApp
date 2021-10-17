@@ -9,7 +9,7 @@ class Vuelo(models.Model):
     destino = models.CharField('Destino',max_length=50)
     fechaSalida = models.DateField('Fecha de Salida')
     fechaLlegada = models.DateField('Fecha de Llegada')
-    horaSalida = models.DateTimeField('Hora de Salida')
-    horaLlegada = models.DateTimeField('Hora de Llegada')
+    horaSalida = models.TimeField('Hora de Salida')
+    horaLlegada = models.TimeField('Hora de Llegada')
     cantidadPasajeros = models.IntegerField('Cantidad Pasajeros')
     

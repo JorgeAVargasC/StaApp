@@ -33,8 +33,5 @@ class UserSerializer(serializers.ModelSerializer):
                         'horaSalida': vuelo.horaSalida,
                         'horaLlegada': vuelo.horaLlegada,
                         'cantidadPasajeros': vuelo.cantidadPasajeros,
-                        'balance': vuelo.balance,
-                        'lastChangeDate': vuelo.lastChangeDate,
-                        'isActive': vuelo.isActive
                     }
                 }

@@ -14,7 +14,4 @@ class VueloSerializer(serializers.ModelSerializer):
             'horaSalida',
             'horaLlegada',
             'cantidadPasajeros',
-            'balance',
-            'lastChangeDate',
-            'isActive'
         ]
