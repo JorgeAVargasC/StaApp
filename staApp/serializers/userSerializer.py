@@ -17,7 +17,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     def to_representation(self, obj):
         user = User.objects.get(id=obj.id)
-        vuelo = Vuelo.objects.get(user=obj.id_vuelo)       
+        vuelo = Vuelo.objects.get(user=obj.id)       
         return {
                     'id': user.id, 
                     'username': user.username,
