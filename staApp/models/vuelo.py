@@ -3,7 +3,7 @@ from .user import User
 
 class Vuelo(models.Model):
     id_vuelo = models.AutoField(primary_key=True)
-    user = models.ForeignKey(User, related_name='Pilot', on_delete=models.CASCADE)
+    user = models.ForeignKey(User, related_name='Piloto', on_delete=models.CASCADE)
     nombrePiloto = models.CharField('Nombre Piloto',max_length=50)
     origen = models.CharField('Origen',max_length=50)
     destino = models.CharField('Destino',max_length=50)
